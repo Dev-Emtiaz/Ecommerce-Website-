@@ -1,0 +1,488 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.header-sec-are{
+    background: url(images/hero-img.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+.nav-link{
+    color:#000000a8;
+    padding-left: 10px;
+}
+.nav-link:hover{
+    color:#81C408;
+}
+.nav-item{
+   padding-left: 22px;
+  
+}
+
+.nav-icons{
+    
+    padding-left: 40px;
+    color: #81C408;
+    /* border: 1px solid orange; */
+    font-size: 22px;
+
+}
+.linkalls{
+    padding-left: 117px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    padding-left: 120px !important;
+    padding-top: 6px !important;
+}
+
+.all-inputs{
+    width: 100%;
+    
+    padding-left: 28px;
+    height: 50px;
+    border: 1px solid orange;
+    border-radius: 25px;
+    outline: none;
+}
+.getbtn{
+    width: 100%;
+    
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 64px;
+    background-color: #81C408;
+    border:1px solid orange;
+    color:white;
+}
+.friuts-text{
+    position: relative;
+}
+.friuts-text::before{
+    content: "Friuts";
+    position: absolute;
+    background-color: #ffa500cf;
+    color: white;
+    font-weight: bold;
+    top: 50%;
+    left: 30%;
+    padding: 15px 41px;
+    font-size: 19px;
+    border-radius: 8px;
+}
+.vegetable-text{
+    position: relative;
+}
+.vegetable-text::before{
+    content: "Vegetabels";
+    position: absolute;
+    background-color: #ffa500cf;
+    color: white;
+    font-weight: bold;
+    top: 50%;
+    left: 30%;
+    padding: 15px 41px;
+    font-size: 19px;
+    border-radius: 8px;
+}
+
+/* free-shiping-sec strat */
+
+.free-shiping-sec{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.card-icons{
+    background: orange;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 50%;
+    color: white;
+}
+
+/* ouroraganic-sec */
+
+.ouroraganic-sec{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+/* .oragnicbtns1{
+    
+    background-color: orange;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    border-radius: 32px;
+    font-size: 17px;
+    padding-bottom: 12px;
+    font-weight: 400;
+    display: inline-block;
+}
+.oragnicbtns{
+    color: black;
+    background-color: #F4F6F8;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    display: inline-block;
+    border-radius: 32px;
+    font-size: 17px;
+    padding-bottom: 12px;
+    font-weight: 400; 
+}
+.oragnicbtnsF{
+    color: black;
+    background-color: #F4F6F8;
+    padding-left: 46px;
+    display: inline-block;
+    padding-right: 46px;
+    padding-top: 12px;
+    border-radius: 32px;
+    font-size: 17px;
+    padding-bottom: 12px;
+    font-weight: 400;  
+}
+.oragnicbtnsB{
+    color: black;
+    background-color: #F4F6F8;
+    padding-left: 46px;
+    display: inline-block;
+    padding-right: 46px;
+    padding-top: 12px;
+    border-radius: 32px;
+    font-size: 17px;
+    padding-bottom: 12px;
+    font-weight: 400;  
+}
+.oragnicbtnsM{
+    color: black;
+    display: inline-block;
+    background-color: #F4F6F8;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-top: 12px;
+    border-radius: 32px;
+    font-size: 17px;
+    padding-bottom: 12px;
+    font-weight: 400;  
+} */
+.orprobtns:hover{
+    background-color: orange !important;
+    color:white !important;
+    transition: all 0.4s !important;
+
+}
+
+/* food sec start */
+.food-sec{
+    padding-top: 10px;
+    padding-bottom: 100px;
+    
+}
+.card-foods:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.4s;
+}
+.card-before{
+    position: relative;
+    
+}
+.card-before::before{
+    position: absolute;
+    content: "Fruits";
+    background: orange;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.cartaddbtn{
+    border: 1px solid orange;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color: #81C408;
+    font-weight: 700;
+    transition: all 0.4s;
+}
+.cartaddbtn:hover{
+    background-color: orange;
+    color:white;
+}
+.cartaddbtn:hover i{
+    color: #81C408;
+}
+/* apple-sec start */
+.apple-sec{
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+.card-apple{
+    position: relative;
+    text-align: center;
+}
+.text-apple-sec{
+    background-color: #81C408;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    width: 250px;
+    transform: translate(-50%, -50%);
+    height: 130px;
+    border-radius: 8px;
+
+}
+.text-food-sec{
+    background-color: #F4F6F8;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    width: 250px;
+    transform: translate(-50%, -50%);
+    height: 130px;
+    border-radius: 8px;
+}
+.text-brokly-sec{
+    background-color: #FFB524;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    width: 250px;
+    transform: translate(-50%, -50%);
+    height: 130px;
+    border-radius: 8px;
+}
+/* freshoraganic-vegetables-sec start */
+.freshoraganic-vegetables-sec{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* vegetable-carousel-sec start */
+.vegetable-carousel-sec{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.card-foodsfot{
+    position: relative;
+}
+.card-foodsfot:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.4s;
+}
+.card-foodsfot::before{
+    position: absolute;
+    content: "Vegetables";
+    background: #81C408;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* fresh-food-sec start */
+.fresh-food-sec{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.fresh-food-sec{
+    background: #FFB524;
+}
+.buybtn{
+    color: #45595B;
+    font-size: 21px;
+    border: 2px solid white;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 16px;
+    transition: all 0.4s;
+    padding-bottom: 16px;
+    border-radius: 58px;
+    display: inline-block;
+}
+.buybtn:hover{
+    background-color: #81C408;
+}
+.apple-main{
+    position: relative;
+}
+.apple-text{
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+/* best-seller-product-sec start */
+
+.best-seller-product-sec{
+    padding-top: 100px;
+}
+
+
+/* organic-ratting-sec start */
+
+.organic-ratting-sec{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.organic-cart{
+    border: 1px solid orange;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 75px;
+    color: #81C408;
+    display: inline-block;
+    transition: all 0.4s;
+}
+.organic-cart:hover{
+    background-color: orange;
+    color:white;
+}
+.organic-cart:hover i{
+    color:#81C408;
+}
+
+/* organic-sec2 start */
+
+.organic-sec2{
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+/* multiuser-sec start */
+
+.multiuser-sec{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* testimonial-sec start */
+.testimonial-sec{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+/* clientcaro-sec start */
+
+.clientcaro-sec{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.owl-theme .owl-controls .owl-page span{
+   background-color:#ffa500cc;
+}
+
+
+/* footer-sec start */
+
+.footer-sec{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: #45595B;
+}
+.footer-top-sec{
+    padding-top: 10px;
+}
+.subsbtn{
+    color: white;
+    background-color: #81C408;
+    width: 42%;
+    display: inline-block;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 51px;
+}
+.footinput{
+    width: 57%;
+    padding-left: 15px;
+    outline: none;
+    border:none;
+    border-radius: 51px;
+}
+.footicons{
+    border-radius: 100%;
+    border: 1px solid orange;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    cursor: pointer;
+    color: orange;
+    padding-bottom: 16px;
+}
+.footicons:hover{
+    background-color: orange;
+    color:black;
+    transition: all 0.4s;
+}
+.icons-foot{
+    display: flex !important;
+    justify-content: space-evenly;
+
+}
+.readmore{
+    color:#81C408;
+    border: 1px solid orange;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 89px;
+    display: inline-block;
+
+}
+.readmore:hover{
+    background-color: orange;
+    color:white;
+    transition: all 1s;
+}
+.links{
+    color:#A2ACAD;
+    display: inline-block;
+    
+}
+.links:hover{
+    color:orange;
+    transition: all 0.7s;
+}
